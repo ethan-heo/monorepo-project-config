@@ -1,0 +1,26 @@
+{
+  "name": "ui-components",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "ethan-heo <ethan.hb94@gmail.com>",
+  "homepage": "https://github.com/ethan-heo/monorepo-project-config#readme",
+  "license": "ISC",
+  "main": "lib/ui-components.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethan-heo/monorepo-project-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ethan-heo/monorepo-project-config/issues"
+  }
+}
