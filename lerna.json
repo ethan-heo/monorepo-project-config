@@ -45,9 +45,6 @@
           }
         ]
       }
-    },
-    "publish": {
-      "conventionalCommits": true
     }
   }
 }
