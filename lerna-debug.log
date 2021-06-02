@@ -18,8 +18,8 @@
 13 info Assuming all packages changed
 14 verbose updated ui-components
 15 verbose updated webapp
-16 verbose git-describe undefined => "6665244"
-17 silly git-describe parsed => {"refCount":"7","sha":"6665244","isDirty":false}
+16 verbose git-describe undefined => "cdd39e6"
+17 silly git-describe parsed => {"refCount":"9","sha":"cdd39e6","isDirty":false}
 18 silly independent for ui-components at /Users/ethan/Desktop/github_projects/monorepo-project-config/frontend/ui-components
 19 verbose getChangelogConfig using preset "conventional-changelog-conventionalcommits"
 20 silly npa Result {
@@ -39,7 +39,7 @@
 20 silly npa }
 21 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-conventionalcommits"
 22 info getChangelogConfig Successfully resolved preset "conventional-changelog-conventionalcommits"
-23 verbose independent increment 1.0.0 by patch
+23 verbose independent increment 1.0.1 by patch
 24 silly independent for webapp at /Users/ethan/Desktop/github_projects/monorepo-project-config/frontend/webapp
 25 verbose getChangelogConfig using preset "conventional-changelog-conventionalcommits"
 26 silly npa Result {
@@ -59,7 +59,7 @@
 26 silly npa }
 27 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-conventionalcommits"
 28 info getChangelogConfig Successfully resolved preset "conventional-changelog-conventionalcommits"
-29 verbose independent increment 1.0.0 by patch
+29 verbose independent increment 1.0.1 by patch
 30 info execute Skipping releases
 31 silly lifecycle No script for "preversion" in "root", continuing
 32 silly lifecycle No script for "preversion" in "ui-components", continuing
@@ -68,9 +68,9 @@
 35 silly independent for ui-components at /Users/ethan/Desktop/github_projects/monorepo-project-config/frontend/ui-components
 36 silly lifecycle No script for "version" in "webapp", continuing
 37 silly independent for webapp at /Users/ethan/Desktop/github_projects/monorepo-project-config/frontend/webapp
-38 silly independent writing new entry: "### 1.0.1 (2021-06-02)\n\n\n### :mega: Other\n\n* initial ui-components ([bab9e14](https://github.com/ethan-heo/monorepo-project-config/commit/bab9e1425cedb387a5e434428fe9f3fada30e291))\n* **initial:** 모노레포, husky, typescript 설정 ([f8af93c](https://github.com/ethan-heo/monorepo-project-config/commit/f8af93c2fefabc1eaa8c03ffeddca416065c9692))\n\n"
-39 silly independent writing new entry: "### 1.0.1 (2021-06-02)\n\n\n### :mega: Other\n\n* **initial:** 모노레포, husky, typescript 설정 ([f8af93c](https://github.com/ethan-heo/monorepo-project-config/commit/f8af93c2fefabc1eaa8c03ffeddca416065c9692))\n\n"
-40 verbose independent wrote /Users/ethan/Desktop/github_projects/monorepo-project-config/frontend/ui-components/CHANGELOG.md
+38 silly independent writing new entry: "### 1.0.2 (2021-06-02)\n\n\n### :mega: Other\n\n* add CHANGELOG ([c85f761](https://github.com/ethan-heo/monorepo-project-config/commit/c85f761a5d6d682e58743f7e9dc71ef468ae76ef))\n* initial ui-components ([bab9e14](https://github.com/ethan-heo/monorepo-project-config/commit/bab9e1425cedb387a5e434428fe9f3fada30e291))\n* **initial:** 모노레포, husky, typescript 설정 ([f8af93c](https://github.com/ethan-heo/monorepo-project-config/commit/f8af93c2fefabc1eaa8c03ffeddca416065c9692))\n\n"
+39 verbose independent wrote /Users/ethan/Desktop/github_projects/monorepo-project-config/frontend/ui-components/CHANGELOG.md
+40 silly independent writing new entry: "### 1.0.2 (2021-06-02)\n\n\n### :mega: Other\n\n* add CHANGELOG ([c85f761](https://github.com/ethan-heo/monorepo-project-config/commit/c85f761a5d6d682e58743f7e9dc71ef468ae76ef))\n* **initial:** 모노레포, husky, typescript 설정 ([f8af93c](https://github.com/ethan-heo/monorepo-project-config/commit/f8af93c2fefabc1eaa8c03ffeddca416065c9692))\n\n"
 41 verbose independent wrote /Users/ethan/Desktop/github_projects/monorepo-project-config/frontend/webapp/CHANGELOG.md
 42 silly lifecycle No script for "version" in "root", continuing
 43 silly gitAdd [
@@ -81,19 +81,19 @@
 43 silly gitAdd ]
 44 silly gitCommit Publish
 44 silly gitCommit
-44 silly gitCommit  - ui-components@1.0.1
-44 silly gitCommit  - webapp@1.0.1
+44 silly gitCommit  - ui-components@1.0.2
+44 silly gitCommit  - webapp@1.0.2
 45 verbose git [
 45 verbose git   'commit',
 45 verbose git   '-F',
-45 verbose git   '/private/var/folders/7j/35xsf2y95pjd05m0j0pht8jc0000gn/T/d45c0004-b59d-4eee-8f9c-16f25dd5023f/lerna-commit.txt'
+45 verbose git   '/private/var/folders/7j/35xsf2y95pjd05m0j0pht8jc0000gn/T/00c36472-fd03-4d85-a0ee-bcce61fd80c4/lerna-commit.txt'
 45 verbose git ]
-46 error Error: Command failed with exit code 1: git commit -F /private/var/folders/7j/35xsf2y95pjd05m0j0pht8jc0000gn/T/d45c0004-b59d-4eee-8f9c-16f25dd5023f/lerna-commit.txt
+46 error Error: Command failed with exit code 1: git commit -F /private/var/folders/7j/35xsf2y95pjd05m0j0pht8jc0000gn/T/00c36472-fd03-4d85-a0ee-bcce61fd80c4/lerna-commit.txt
 46 error husky > commit-msg (node v12.18.3)
 46 error ⧗   input: Publish
 46 error
-46 error  - ui-components@1.0.1
-46 error  - webapp@1.0.1
+46 error  - ui-components@1.0.2
+46 error  - webapp@1.0.2
 46 error ✖   subject may not be empty [subject-empty]
 46 error ✖   type may not be empty [type-empty]
 46 error
