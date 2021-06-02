@@ -1,26 +1,40 @@
 {
   "name": "webapp",
   "version": "1.0.3",
-  "description": "> TODO: description",
+  "description": "webapp",
   "author": "ethan-heo <ethan.hb94@gmail.com>",
   "homepage": "https://github.com/ethan-heo/monorepo-project-config#readme",
   "license": "ISC",
-  "main": "lib/webapp.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ethan-heo/monorepo-project-config.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "dev": "webpack serve --config webpack/webpack.config.ts"
   },
   "bugs": {
     "url": "https://github.com/ethan-heo/monorepo-project-config/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/react": "^17.0.9",
+    "@types/react-dom": "^17.0.6",
+    "@types/webpack": "^5.28.0",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ui-components": "^1.0.3"
   }
 }

@@ -3,7 +3,9 @@
   "private": true,
   "scripts": {
     "build:ui": "yarn workspace ui-components build",
-    "release": "lerna version --no-commit-hooks"
+    "release": "lerna version --no-commit-hooks",
+    "ui-components": "yarn workspace ui-components",
+    "webapp": "yarn workspace webapp"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
