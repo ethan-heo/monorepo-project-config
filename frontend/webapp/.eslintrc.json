@@ -1,3 +1,6 @@
 {
-    "extends": ["../../.eslintrc.json", "../../.eslintrc.a11y.json"]
+    "extends": ["../../.eslintrc.json", "../../.eslintrc.a11y.json"],
+    "rules": {
+        "@typescript-eslint/no-unused-vars": "off"
+    }
 }
